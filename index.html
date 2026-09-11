@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071a2e">
+  <meta name="description" content="Elimane Sall, VP Partenariats du CLÉE — collaborations entre les entreprises et les étudiants de Polytechnique Montréal.">
+  <title>Elimane Sall — VP Partenariats, CLÉE</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/clee.png">
+  <link rel="apple-touch-icon" href="assets/clee.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <article class="card" aria-labelledby="name">
+      <div class="spectrum" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <header class="brandbar">
+        <img class="poly-logo" src="assets/poly-white.png" alt="Polytechnique Montréal">
+        <img class="clee-logo" src="assets/clee.png" alt="CLÉE">
+      </header>
+
+      <section class="identity">
+        <div class="portrait-wrap"><img class="portrait" src="assets/elimane.webp" alt="Portrait professionnel d’Elimane Sall"></div>
+        <p class="eyebrow">RELATIONS ENTREPRISES · ÉTUDIANTS</p>
+        <h1 id="name">Elimane Sall</h1>
+        <p class="role">VP Partenariats</p>
+        <p class="org">CLÉE · Polytechnique Montréal</p>
+      </section>
+
+      <section class="intro">
+        <p>Je crée des liens concrets entre les entreprises et les étudiants de Polytechnique Montréal — workshops, visites, études de cas et rencontres avec des ingénieurs.</p>
+      </section>
+
+      <section class="actions" aria-label="Actions principales">
+        <a class="button primary" href="Elimane-Sall.vcf" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM5 19a7 7 0 0 1 14 0v1H5v-1Zm14-9v3h3v2h-3v3h-2v-3h-3v-2h3v-3h2Z"/></svg>
+          Ajouter à mes contacts
+        </a>
+        <a class="button secondary" href="mailto:Partenariats@clee.polymtl.ca?subject=Collaboration%20avec%20les%20%C3%A9tudiants%20de%20Polytechnique%20Montr%C3%A9al">
+          Parler d’une collaboration
+        </a>
+      </section>
+
+      <section class="links" aria-label="Coordonnées et ressources">
+        <a href="mailto:Partenariats@clee.polymtl.ca"><span class="link-icon">@</span><span><small>Courriel</small>Partenariats@clee.polymtl.ca</span><b>↗</b></a>
+        <a href="tel:+15149199187"><span class="link-icon">☎</span><span><small>Téléphone</small>514 919-9187</span><b>↗</b></a>
+        <a href="https://www.linkedin.com/in/elimane-sall-523720349" target="_blank" rel="noopener"><span class="link-icon">in</span><span><small>LinkedIn</small>Elimane Sall</span><b>↗</b></a>
+        <a href="CLEE_Workshops_Entreprises_2026-2027.pdf" target="_blank"><span class="link-icon">01</span><span><small>Collaborations entreprises</small>Voir le one-pager workshops</span><b>↗</b></a>
+      </section>
+
+      <button class="meet-mode" id="openQr" type="button">
+        <span class="qr-mini" aria-hidden="true">▦</span>
+        <span><strong>Mode rencontre</strong><small>Afficher mon QR en plein écran</small></span>
+      </button>
+
+      <button class="install" id="installBtn" type="button" hidden>Ajouter cette carte à mon téléphone</button>
+      <footer>Restons en contact.</footer>
+    </article>
+  </main>
+
+  <dialog id="qrDialog" aria-labelledby="qrTitle">
+    <div class="qr-sheet">
+      <button class="close" id="closeQr" type="button" aria-label="Fermer">×</button>
+      <div class="qr-person">
+        <img src="assets/elimane.webp" alt="">
+        <div><h2 id="qrTitle">Elimane Sall</h2><p>VP Partenariats · CLÉE</p></div>
+      </div>
+      <div class="qr-box"><img id="qrImage" src="assets/qr-code.png" alt="QR code vers la carte numérique d’Elimane Sall"></div>
+      <h3>Scannez pour garder le contact</h3>
+      <p class="qr-copy">Coordonnées, LinkedIn et collaborations avec les étudiants de Polytechnique Montréal.</p>
+      <a class="qr-download" href="assets/qr-code.png" download="QR-Elimane-Sall.png">Télécharger le QR</a>
+      <img class="poly-dialog" src="assets/poly-white.png" alt="Polytechnique Montréal">
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
