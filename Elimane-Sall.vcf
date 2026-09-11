@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sall;Elimane;;;
+FN:Elimane Sall
+ORG:CLÉE;Polytechnique Montréal
+TITLE:VP Partenariats
+EMAIL;TYPE=INTERNET,WORK:Partenariats@clee.polymtl.ca
+TEL;TYPE=CELL,VOICE:+15149199187
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/elimane-sall-523720349
+URL;TYPE=WORK:https://elizqsd.github.io/carte-clee/
+NOTE:Relations entreprises–étudiants : workshops, visites, études de cas et collaborations avec les étudiants de Polytechnique Montréal.
+END:VCARD

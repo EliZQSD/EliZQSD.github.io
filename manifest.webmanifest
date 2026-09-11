@@ -1,0 +1,13 @@
+{
+  "name": "Elimane Sall — VP Partenariats",
+  "short_name": "Elimane Sall",
+  "description": "Carte de présentation numérique — CLÉE, Polytechnique Montréal",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#071a2e",
+  "theme_color": "#071a2e",
+  "lang": "fr-CA",
+  "icons": [
+    {"src":"assets/clee.png","sizes":"360x360","type":"image/png","purpose":"any maskable"}
+  ]
+}
